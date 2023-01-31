@@ -14,4 +14,9 @@
     <h2>💾 Task 3</h2>
     <p>Read throughput values from a file, calculate JFI using the "jainsall" function, and output the result. The file contains throughput values in Mbps. 💾</p>
   </div>
+   <div class="task">
+    <h2>💾 Task 4</h2>
+    <p>Read throughput values from a file and using a jainsall function to calculate a JFI. The file contains 4 values in Mbps and Kbps, which must be converted to the same units before calculating JFI.. 💾</p>
+  </div>
+  
 </div>
