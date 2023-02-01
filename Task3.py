@@ -9,7 +9,7 @@ def jainsall(liste):
 
 
 bw = []
-with open ("data.txt") as file: #kode fra timen den 31.01.2023
+with open ("/Users/dibashishegar/Documents/GitHub/Datasikkerhet og skytjenester/LAB1/Lab1-Datanettverk-og-skytjenester/data.txt") as file: #kode fra timen den 31.01.2023
     for line in file:
         print(line.split())
         bw.append(int(line.split()[0]))

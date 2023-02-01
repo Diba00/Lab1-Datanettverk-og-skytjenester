@@ -9,11 +9,16 @@ def jainsall(liste):
 
 
 bw = []
-with open ("data1.txt") as file:
+with open ("/Users/dibashishegar/Documents/GitHub/Datasikkerhet og skytjenester/LAB1/Lab1-Datanettverk-og-skytjenester/data1.txt") as file:
     for line in file:
-        print(line.split())
-        bw.append(int(line.split()[0]))
+        data = line.split()
+        print ("check", data[0], data[1])
+        value = float(data[0])
+        if data[1] == "Kbps":
+          value = value/1000  
+        bw.append(value)
 
-
+print (bw)
 result = jainsall(bw)
+
 print("The JFI is", result)
